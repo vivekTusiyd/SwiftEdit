@@ -10,6 +10,7 @@ import CoreImage
 import CoreImage.CIFilterBuiltins
 import Photos
 
+// View Model
 class ImageEditorViewModel: ObservableObject {
     @Published var originalImage: UIImage?
     @Published var displayImage: UIImage?

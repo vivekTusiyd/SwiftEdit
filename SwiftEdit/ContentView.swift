@@ -8,6 +8,7 @@
 import SwiftUI
 import PhotosUI
 
+// Image Editor View
 struct ImageEditorView: View {
     @StateObject private var viewModel = ImageEditorViewModel()
     @State private var showImagePicker = false
@@ -68,15 +69,7 @@ struct ImageEditorView: View {
     }
 }
 
-@main
-struct SwiftEditApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ImageEditorView()
-        }
-    }
-}
-
+// Preview
 #Preview {
     ImageEditorView()
 }

@@ -7,11 +7,12 @@
 
 import SwiftUI
 
-//@main
-//struct SwiftEditApp: App {
-//    var body: some Scene {
-//        WindowGroup {
-//            ImageEditorView()
-//        }
-//    }
-//}
+// Starting point of the app
+@main
+struct SwiftEditApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ImageEditorView()
+        }
+    }
+}
